@@ -1,0 +1,236 @@
+.container-fluid {
+    background-color: #f0f0f0;
+}
+
+.header , .footer{
+    background-color: black;
+    align-items: center;
+}
+div .header, div .footer{
+    padding:0 20% 0 20%;
+}
+.site-logo{
+    height:70px;
+}
+
+div .content{
+    margin:0 20% 0 20%;
+    background-color: rgb(240, 240, 240);
+    padding: 30px 0 0 0;
+}
+div .header>div{
+    margin:0 5% 0 5%;
+    
+   
+}
+.icon-container{
+    background-color: aliceblue;
+    height: 40px;
+    width: 40px;
+    padding:0;
+    margin-left: 0;
+    border-radius: 180px;
+    display: inline-block;
+    
+}
+
+div .game-card>h6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 130px;
+    height: 40px;
+    border-radius: 5px;
+    color:white;
+    background-color: maroon;
+    
+}
+div .game-card{
+    margin:auto;
+}
+div .game-card>img:hover{
+    opacity: .7;
+    transition-duration: .4s;
+}
+div .gameImage{
+    height:360px;
+    width: auto;
+}
+
+.icons{
+    margin:8.5px;
+    padding: 0;
+    display: flex;
+}
+h1,h6{
+    text-align: center;
+}
+p{
+    text-align: left;
+}
+.btN{
+    background-color: maroon;
+    color:white;
+    border:none;
+    text-decoration: none;
+    border-radius: 3px;
+    padding:10px 20px;
+     
+}
+
+.btN:hover {
+    text-decoration: none;
+    color: white;
+}
+.btn-login {
+    font-weight: 700;
+}
+div .btn-container{
+    gap: 8px;
+    justify-content: end;
+}
+.center-block{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+div .tbl1{
+    padding:0 8% 0 8%;
+}
+
+@media  screen and (max-width: 990px){
+    body{
+        background-color: rgb(240, 240, 240) !important;
+        transition-duration: .2s;
+    }
+   p, h1, h4{
+    text-align: center;
+   }
+   .logo{
+    display: flex;
+    justify-content: center;
+   }
+   .btn-container{
+    display:inline-flex;
+    justify-content: center !important;
+    gap: 5px;
+    margin-bottom:10px !important;
+   }
+   div .content{
+    margin:30px 2% 30px 2%
+   }
+  
+   .col2{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+   }
+}
+
+.accordion {
+    max-width: 300px;
+    margin-bottom: 25px;
+    font-size: 18px;
+    padding: 10px 0px 0px 25px;
+    background-color: #f0f0f0;
+}
+
+.section {
+    margin-bottom: 5px;
+    border-radius: 50px;
+}
+
+.section input {
+    display: none;
+}
+
+.section label {
+    background-color: #000000;
+    color: white;
+    padding: 10px;
+    display: block;
+    cursor: pointer;
+    position: relative;
+    padding-left: 30px; /* Espaço para o ícone "+" */
+}
+
+.section label::before {
+    content: "+";
+    position: absolute;
+    left: 10px;
+}
+
+.section div {
+    /* display: none; */
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #ddd;
+}
+
+.section input:checked + label + div {
+    display: block;
+}
+
+.acc {
+    font-weight: 500;
+    background-color: white;
+}
+
+.col-md {
+    margin-bottom: 25px;
+}
+
+table {
+    padding-top: 20px;
+    border: 1px solid black;
+}
+
+table tr {
+    border: 1px solid black;
+}
+
+table td {
+    border: 1px solid black;
+}
+
+.rating {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 40px;
+    font-size: 22px;
+}
+
+.name-rating {
+    font-weight: bold;
+}
+
+.rating img {
+    height: 30px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+}
+
+.grade {
+    color: yellow;
+}
+
+.main {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.foot {
+    color: white;
+    text-align: center;
+}
+
+.btn-container a {
+    margin-right: 15px;
+}
